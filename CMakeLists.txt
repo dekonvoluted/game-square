@@ -4,6 +4,9 @@ cmake_minimum_required( VERSION 3.7 FATAL_ERROR )
 # Set name of project
 project( game-square )
 
+# Set up compiler options
+set( CMAKE_CXX_FLAGS "-Wall" )
+
 # Find Qt Widgets
 find_package( Qt5Widgets REQUIRED )
 
