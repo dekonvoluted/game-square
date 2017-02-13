@@ -1,13 +1,12 @@
 #ifndef SQUARE_H
 #define SQUARE_H
 
-#include <QGraphicsView>
-#include <QWidget>
+#include <QGraphicsRectItem>
 
-class Square : public QGraphicsView
+class Square : public QGraphicsRectItem
 {
     public:
-    Square( QWidget* = 0 );
+    Square( QGraphicsItem* = 0 );
     ~Square() = default;
 };
 

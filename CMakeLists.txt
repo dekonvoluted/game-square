@@ -11,7 +11,7 @@ find_package( Qt5Widgets REQUIRED )
 set( CMAKE_AUTOMOC ON )
 
 # Set sources
-set( sources main.cpp square.cpp )
+set( sources main.cpp game.cpp player.cpp piece.cpp square.cpp )
 
 # Compile executable
 add_executable( ${CMAKE_PROJECT_NAME} ${sources} )
