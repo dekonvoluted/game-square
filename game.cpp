@@ -12,6 +12,7 @@ Game::Game()
 {
     // Create four players
     for ( auto& player : players ) {
+        player = std::make_unique<Player>();
     }
 }
 
